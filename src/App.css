@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+.gasoek-one-regular {
+  font-family: "Gasoek One", sans-serif;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Moyamoya-Face-v1.0';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/Cafe24Moyamoya-Face-v1.0.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PyeongChangPeace-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+  background-color: #F6E2D5;
+  font-family: 'PyeongChangPeace-Bold';
+}
+
+.my-photo {
+  height: 40vmin;
+  pointer-events: none;
+  border: 1rem solid;
+  border-radius: 30%;
+  border-style: ridge;
+  border-color: #176B4F;
+}
+
+.photo {
+  height: 40vmin;
+  border-radius: 30%;
+  pointer-events: none;
+}
+
+.text {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.subtext {
+  font-size: 48px;
+}
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  color: #43363A;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.favorite {
+  min-height: 100vh;
+  background-color: #176B4F;
+  color: #F6E2D5;
+  padding-top: 180px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.goal {
+  min-height: 100vh;
+  background-color:#C57C87;
+  color: #F6E2D5;
+  display: grid;
+  grid-template-rows: auto auto;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.goal-detail {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.motto {
+  min-height: 100vh;
+  background-color: #403647;
+  color: #F6E2D5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 180px;
+}
+
+.lp {
+  height: 90vmin;
+  pointer-events: none;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .lp {
+    animation: photo-spin infinite 20s linear;
+  }
+} */
+/* 
+@keyframes photo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.bottom {
+  padding: 1rem;
+  align-items: center;
+}
+
+.link {
+  color: #43363A;
+}
+
+.pard {
+  height: 12px;
+  padding-bottom: 2px;
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
